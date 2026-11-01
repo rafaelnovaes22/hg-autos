@@ -9,3 +9,7 @@ Deploy: Railway, projeto `hg-autos`, serviço ligado ao repo com Dockerfile ngin
 ```powershell
 python -m http.server 8000
 ```
+
+Verificação da jornada: `node --test evals/journey.test.mjs`.
+
+O formulário abre o WhatsApp com a mensagem preenchida. A pessoa ainda precisa enviar a mensagem. O catálogo mostra categorias, sem estoque sincronizado, e a simulação de financiamento depende do atendimento humano.
